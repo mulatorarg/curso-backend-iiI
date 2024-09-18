@@ -2,4 +2,4 @@
 
 Un repo público para compartir experiencia del curso.
 
-Entregas parciales del trabajo final.
+Primera Entrega Parcial, camino al Trabajo Práctico Final 😅.
