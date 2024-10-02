@@ -4,7 +4,7 @@ import { generateUser } from "../utils/user.utils.js";
 export const createUsersMock = async (cant = 20) => {
   try {
     const usersArray = [];
-    for (let i = 0; i <= cant; i++) {
+    for (let i = 0; i < cant; i++) {
       const user = generateUser();
       usersArray.push(user);
     }

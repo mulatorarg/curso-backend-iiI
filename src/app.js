@@ -21,6 +21,6 @@ dbConnection();
 
 const server = app.listen(PORT, () => {
   console.log(`✅ Servidor Listo. Escuchando en el puerto ${PORT}.`);
-  console.log(`✅ Versión: ${VERSION}.`);
+  console.log(`✅ Versión: ${VERSION}. Backend III - Comisión 69910. Campo Gabriel.`);
 });
 server.on("error", (err) => console.log(err));
