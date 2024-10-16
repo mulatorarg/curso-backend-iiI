@@ -4,8 +4,15 @@ import mocksRoute from "./routers/mocks.router.js";
 import viewsRoute from "./routers/views.router.js";
 import { mongoConnection } from "./config/db.connection.js";
 import config from "./config/config.js";
+import swaggerUI from 'swagger-ui-express';
+import swaggerJSDoc from 'swagger-jsdoc';
+import { info } from './docs/info.js';
 
 const app = express();
+
+const specs = swaggerJSDoc(info);
+
+app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

@@ -1,0 +1,66 @@
+components:
+  parameters:
+    schemas:
+      SchemaUser:
+        type: object
+        required:
+          - id
+          - name
+          - email
+          - website
+          - role
+          - image
+        properties:
+          id:
+            type: string
+            description: Id del usuario
+            example: e1c52ceb-e122-48e6-b5cb-4f461a913591
+          name:
+            type: string
+            description: Nombre del usuario
+            example: mulator
+          email:
+            type: string
+            description: Correo electrónico del usuario
+            example: mulator@yacarestudio.com
+          role:
+            type: string
+            description: Rol del usuario
+            example: admin
+          image:
+            type: string
+            description: Avatar del usuario
+            example: https://yacarestudio.com/img/logo.png
+          website:
+            type: string
+            description: Url del sitio web del usuario
+            example: https://yacarestudio.com
+      SchemaUserCreate:
+        type: object
+        required:
+          - name
+          - email
+          - website
+          - role
+          - image
+        properties:
+          name:
+            type: string
+            description: Nombre del usuario
+            example: mulator
+          email:
+            type: string
+            description: Correo electrónico del usuario
+            example: mulator@yacarestudio.com
+          role:
+            type: string
+            description: Rol del usuario
+            example: admin
+          image:
+            type: string
+            description: Avatar del usuario
+            example: https://yacarestudio.com/img/logo.png
+          website:
+            type: string
+            description: Url del sitio web del usuario
+            example: https://yacarestudio.com

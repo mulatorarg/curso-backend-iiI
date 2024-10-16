@@ -1,0 +1,84 @@
+components:
+  schema:
+    Usuarios:
+      ResponseUser:
+        type: object
+        properties:
+          id:
+            type: string
+            description: Id del usuario
+          name:
+            type: string
+            description: Titulo del usuario
+          email:
+            type: string
+            description: Cuerpo del usuario
+          role:
+            type: string
+            description: Rol del usuario
+          image:
+            type: string
+            decription: Url de la imagen del usuario
+          website:
+            type: string
+            description: Sitio web del usuario
+        example:
+          id: "string"
+          name: "string"
+          email: "string"
+          role: "string"
+          image: "string"
+          website: "string"
+      ResponseUserAll:
+        type: array
+        items:
+          properties:
+            id:
+              type: string
+              description: Id del usuario
+            name:
+              type: string
+              description: Titulo del usuario
+            email:
+              type: string
+              description: Cuerpo del usuario
+            role:
+              type: string
+              description: Rol del usuario
+            image:
+              type: string
+              decription: Url de la imagen del usuario
+            website:
+              type: string
+              description: Sitio web del usuario
+          example:
+            id: string
+            name: string
+            email: string
+            role: string
+            image: string
+            website: string
+      UserNotFound:
+        type: object
+        properties:
+          msg:
+            type: string
+            description: Usuario no encontrado
+        example:
+          msg: Usuario no encontrado
+      NotProcesable:
+        type: object
+        properties:
+          msg:
+            type: string
+            description: La solicitud es incompleta o incorrecta
+        example:
+          msg: La solicitud es incompleta o incorrecta
+      InternalServerError:
+        type: object
+        properties:
+          msg:
+            type: string
+            description: Internal Server Error
+        example:
+          msg: Internal Server Error

@@ -1,0 +1,145 @@
+paths:
+  /users:
+    post:
+      tags:
+      - Usuarios
+      summary: Registrar nuevo usuario
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/parameters/schemas/SchemaUserCreate'
+        required: true
+      responses:
+        200:
+          description: Usuario registrado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/ResponseUser'
+        422:
+          description: La solicitud es incompleta o incorrecta
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/NotProcesable'
+        500:
+          description: Ocurrió un error interno en el servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/InternalServerError'
+    get:
+      tags:
+      - Usuarios
+      summary: Listar Usuarios
+      responses:
+        200:
+          decription: Lista de Usuarios registrados
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/ResponseUserAll'
+        500:
+          description: Ocurrió un error interno en el servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/InternalServerError'
+  /users/{id}:
+    get:
+      tags:
+      - Usuarios
+      summary: Buscar usuario por id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: id del usuario a buscar
+          schema:
+            type: string
+      responses:
+        200:
+          decription: Usuario encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/ResponseUser'
+        404:
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/UserNotFound'
+        500:
+          description: Ocurrió un error interno en el servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/InternalServerError'
+    put:
+      tags:
+      - Usuarios
+      summary: Editar usuario
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Id del usuario a actualizar
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/parameters/schemas/SchemaUser'
+        required: true
+      responses:
+        200:
+          description: Usuario actualizado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/ResponseUser'
+        404:
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/UserNotFound'
+        500:
+          description: Ocurrió un error interno en el servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/InternalServerError'
+    delete:
+      tags:
+      - Usuarios
+      summary: Eliminar usuario por id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: id del usuario a eliminar
+          schema:
+            type: string
+      responses:
+        200:
+          decription: Usuario eliminado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/ResponseUser'
+        404:
+          description: Usuario no encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/UserNotFound'
+        500:
+          description: Ocurrió un error interno en el servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/Usuarios/InternalServerError'
