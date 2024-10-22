@@ -40,3 +40,6 @@
 [2024-10-22T08:12:24.214] [INFO] default - [TEST.NODE] Conectado al Servidor de MongoDB.
 [2024-10-22T08:12:24.239] [INFO] default - [TEST.NODE] Se limpió la colección Users en la Base de datos.
 [2024-10-22T08:12:24.242] [INFO] default - [TEST.NODE] Finalizados los tests.
+[2024-10-22T14:20:45.548] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-22T14:20:45.551] [INFO] default - Versión: 24.10.22. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-22T14:21:15.547] [ERROR] default - No Conectado al Servidor de MongoDB: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017

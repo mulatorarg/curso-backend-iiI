@@ -1,6 +1,6 @@
 {
   "name": "curso-backend-iii",
-  "version": "24.10.15",
+  "version": "24.10.22",
   "main": "index.js",
   "type": "module",
   "private": true,
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "Gabriel Campo",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
