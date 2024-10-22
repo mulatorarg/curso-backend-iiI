@@ -1,0 +1,42 @@
+[2024-10-18T13:58:05.322] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-18T13:58:05.325] [INFO] default - Versión: 24.10.18. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-18T13:58:05.334] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-18T14:09:02.507] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-18T14:09:02.510] [INFO] default - Versión: 24.10.18. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-18T14:09:02.519] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-18T22:56:24.246] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-18T22:56:24.248] [INFO] default - Versión: 24.10.18. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-18T22:56:54.250] [ERROR] default - No Conectado al Servidor de MongoDB: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2024-10-19T10:49:48.201] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-19T10:49:48.203] [INFO] default - Versión: 24.10.18. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-19T10:50:18.204] [ERROR] default - No Conectado al Servidor de MongoDB: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2024-10-19T12:01:39.650] [INFO] default - Servidor Listo. Escuchando en el puerto 8003.
+[2024-10-19T12:01:39.653] [INFO] default - Versión: 24.10.18. Backend III - Comisión 69910. Campo Gabriel.
+[2024-10-19T12:01:39.665] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:15:56.572] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:16:49.939] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:17:59.483] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:49:31.246] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:50:29.117] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:59:48.695] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T11:59:48.733] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:02:54.280] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:02:54.310] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:03:15.042] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:03:15.076] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:08:54.841] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:08:54.871] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:12:39.208] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:12:39.236] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:13:06.845] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:13:06.871] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-21T12:14:58.746] [INFO] default - Conectado al Servidor de MongoDB.
+[2024-10-21T12:14:58.771] [INFO] default - [TEST] Se limpió la colección Users en la Base de datos.
+[2024-10-22T07:52:47.090] [INFO] default - [TEST.NODE] Iniciando tests.
+[2024-10-22T07:52:47.124] [INFO] default - [TEST.NODE] Conectado al Servidor de MongoDB.
+[2024-10-22T07:52:47.147] [INFO] default - [TEST.NODE] Se limpió la colección Users en la Base de datos.
+[2024-10-22T07:52:47.150] [INFO] default - [TEST.NODE] Finalizados los tests.
+[2024-10-22T08:12:24.177] [INFO] default - [TEST.NODE] Iniciando tests.
+[2024-10-22T08:12:24.214] [INFO] default - [TEST.NODE] Conectado al Servidor de MongoDB.
+[2024-10-22T08:12:24.239] [INFO] default - [TEST.NODE] Se limpió la colección Users en la Base de datos.
+[2024-10-22T08:12:24.242] [INFO] default - [TEST.NODE] Finalizados los tests.

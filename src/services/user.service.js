@@ -16,7 +16,15 @@ export const createUsersMock = async (cant = 50) => {
 
 export const getUsers = async () => {
   try {
-    return await UserModel.find({});
+    return await UserModel.find();
+  } catch (error) {
+    throw new Error(error);
+  }
+};
+
+export const getUser = async (id) => {
+  try {
+    return await UserModel.findById(id);
   } catch (error) {
     throw new Error(error);
   }

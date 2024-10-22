@@ -7,6 +7,7 @@ import config from "./config/config.js";
 import swaggerUI from 'swagger-ui-express';
 import swaggerJSDoc from 'swagger-jsdoc';
 import { info } from './docs/info.js';
+import { logger } from "./logs/logger.js";
 
 const app = express();
 
@@ -27,7 +28,7 @@ const VERSION = config.VERSION;
 mongoConnection();
 
 const server = app.listen(PORT, () => {
-  console.log(`✔ Servidor Listo. Escuchando en el puerto ${PORT}.`);
-  console.log(`✔ Versión: ${VERSION}. Backend III - Comisión 69910. Campo Gabriel.`);
+  logger.info(`Servidor Listo. Escuchando en el puerto ${PORT}.`);
+  logger.info(`Versión: ${VERSION}. Backend III - Comisión 69910. Campo Gabriel.`);
 });
-server.on("error", (err) => console.log(err));
+server.on("error", (err) => logger.error(err));

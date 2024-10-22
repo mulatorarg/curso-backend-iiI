@@ -6,9 +6,10 @@ export const info = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "API Agusele",
+      title: "API Backend III",
+      autor: "Gabriel CAMPO",
       version: VERSION,
-      description: "API del ecommerce Agusele",
+      description: "API - Backend III - 69910 - Gabriel CAMPO",
     },
     servers: [
       {

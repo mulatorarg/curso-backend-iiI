@@ -20,6 +20,6 @@ export const generateUser = () => {
 };
 
 
-function generateUserRole() {
+export function generateUserRole() {
   return roles[Math.floor((Math.random() * (roles.length + 1)))];
 }

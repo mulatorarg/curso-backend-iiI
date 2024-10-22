@@ -24,3 +24,15 @@ Un repo público para compartir experiencia del curso 😅.
 ### Formato
 
 Link al repositorio de Github con el proyecto completo, sin la carpeta de node_modules.
+
+## Entrega final
+
+
+
+### Docker Hub
+
+https://hub.docker.com/r/mulator/backend-iii/tags
+
+
+npm i --save-dev @types/supertest
+npm i --save-dev @types/bcrypt
