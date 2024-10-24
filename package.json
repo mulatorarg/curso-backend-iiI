@@ -1,6 +1,6 @@
 {
   "name": "curso-backend-iii",
-  "version": "24.10.22",
+  "version": "24.10.24",
   "main": "index.js",
   "type": "module",
   "private": true,
